@@ -1,0 +1,30 @@
+name: vue-clubmed format
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: 'vue-clubmed'
+
+    strategy:
+      matrix:
+        node-version: [19.x]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        cache-dependency-path: "vue-clubmed/package-lock.json"
+
+    - run: npm ci
+    - run: npm run lint:ci
+    - run: npm run format:ci

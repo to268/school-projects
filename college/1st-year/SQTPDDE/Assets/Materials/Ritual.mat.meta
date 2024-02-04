@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials/Ritual.mat.meta
+guid: fd7d4c7268b9a74478fd9ac95a02546c
+========
+guid: 316ea1835a86c1a42910d2a5e9346791
+>>>>>>>> bosses:Assets/Materials/Oni Wind.mat.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

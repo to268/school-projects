@@ -1,0 +1,96 @@
+Benchmark 1: ./../threshold_par ../data/im1.ppm /tmp/tmp.NIlNMYXWj6 1
+  Time (mean ± σ):       8.6 ms ±   0.2 ms    [User: 3.5 ms, System: 5.2 ms]
+  Range (min … max):     8.2 ms …   9.6 ms    261 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im1.ppm /tmp/tmp.NIlNMYXWj6 2
+  Time (mean ± σ):       8.3 ms ±   0.1 ms    [User: 4.6 ms, System: 4.7 ms]
+  Range (min … max):     8.1 ms …   8.7 ms    273 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im1.ppm /tmp/tmp.NIlNMYXWj6 4
+  Time (mean ± σ):       8.3 ms ±   0.4 ms    [User: 6.5 ms, System: 4.8 ms]
+  Range (min … max):     7.8 ms …  11.6 ms    268 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im1.ppm /tmp/tmp.NIlNMYXWj6 8
+  Time (mean ± σ):       8.8 ms ±   0.3 ms    [User: 3.8 ms, System: 6.2 ms]
+  Range (min … max):     8.2 ms …  10.0 ms    258 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im1.ppm /tmp/tmp.NIlNMYXWj6 16
+  Time (mean ± σ):       9.0 ms ±   0.2 ms    [User: 4.1 ms, System: 6.6 ms]
+  Range (min … max):     8.6 ms …  10.0 ms    252 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im1.ppm /tmp/tmp.NIlNMYXWj6 32
+  Time (mean ± σ):       9.5 ms ±   0.2 ms    [User: 4.6 ms, System: 7.3 ms]
+  Range (min … max):     9.2 ms …  10.4 ms    248 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im2.ppm /tmp/tmp.NIlNMYXWj6 1
+  Time (mean ± σ):      15.2 ms ±   1.4 ms    [User: 6.5 ms, System: 8.5 ms]
+  Range (min … max):    13.2 ms …  23.4 ms    153 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im2.ppm /tmp/tmp.NIlNMYXWj6 2
+  Time (mean ± σ):      13.9 ms ±   0.6 ms    [User: 9.0 ms, System: 7.5 ms]
+  Range (min … max):    12.5 ms …  15.7 ms    179 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im2.ppm /tmp/tmp.NIlNMYXWj6 4
+  Time (mean ± σ):      13.5 ms ±   1.1 ms    [User: 13.8 ms, System: 7.8 ms]
+  Range (min … max):    12.2 ms …  21.3 ms    197 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im2.ppm /tmp/tmp.NIlNMYXWj6 8
+  Time (mean ± σ):      13.9 ms ±   0.7 ms    [User: 6.6 ms, System: 9.1 ms]
+  Range (min … max):    12.6 ms …  15.8 ms    182 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im2.ppm /tmp/tmp.NIlNMYXWj6 16
+  Time (mean ± σ):      14.7 ms ±   0.7 ms    [User: 7.0 ms, System: 9.8 ms]
+  Range (min … max):    13.4 ms …  17.0 ms    174 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im2.ppm /tmp/tmp.NIlNMYXWj6 32
+  Time (mean ± σ):      15.0 ms ±   0.8 ms    [User: 7.3 ms, System: 10.8 ms]
+  Range (min … max):    13.7 ms …  17.9 ms    182 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im3.ppm /tmp/tmp.NIlNMYXWj6 1
+  Time (mean ± σ):      22.5 ms ±   0.7 ms    [User: 9.5 ms, System: 12.8 ms]
+  Range (min … max):    21.2 ms …  24.5 ms    114 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im3.ppm /tmp/tmp.NIlNMYXWj6 2
+  Time (mean ± σ):      21.3 ms ±   0.6 ms    [User: 13.7 ms, System: 13.1 ms]
+  Range (min … max):    20.2 ms …  23.3 ms    125 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im3.ppm /tmp/tmp.NIlNMYXWj6 4
+  Time (mean ± σ):      21.3 ms ±   0.6 ms    [User: 24.9 ms, System: 12.4 ms]
+  Range (min … max):    20.3 ms …  23.3 ms    123 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im3.ppm /tmp/tmp.NIlNMYXWj6 8
+  Time (mean ± σ):      22.1 ms ±   0.8 ms    [User: 11.6 ms, System: 14.3 ms]
+  Range (min … max):    21.1 ms …  26.1 ms    120 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im3.ppm /tmp/tmp.NIlNMYXWj6 16
+  Time (mean ± σ):      22.4 ms ±   0.7 ms    [User: 11.7 ms, System: 14.7 ms]
+  Range (min … max):    21.2 ms …  25.3 ms    121 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im3.ppm /tmp/tmp.NIlNMYXWj6 32
+  Time (mean ± σ):      23.2 ms ±   0.8 ms    [User: 11.4 ms, System: 16.6 ms]
+  Range (min … max):    22.0 ms …  25.4 ms    118 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im4.ppm /tmp/tmp.NIlNMYXWj6 1
+  Time (mean ± σ):      71.4 ms ±   0.7 ms    [User: 34.8 ms, System: 36.2 ms]
+  Range (min … max):    70.1 ms …  72.6 ms    40 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im4.ppm /tmp/tmp.NIlNMYXWj6 2
+  Time (mean ± σ):      68.4 ms ±   0.6 ms    [User: 48.9 ms, System: 36.0 ms]
+  Range (min … max):    67.3 ms …  69.8 ms    42 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im4.ppm /tmp/tmp.NIlNMYXWj6 4
+  Time (mean ± σ):      69.3 ms ±   0.8 ms    [User: 84.6 ms, System: 37.4 ms]
+  Range (min … max):    67.9 ms …  72.1 ms    41 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im4.ppm /tmp/tmp.NIlNMYXWj6 8
+  Time (mean ± σ):      70.2 ms ±   1.0 ms    [User: 41.8 ms, System: 43.1 ms]
+  Range (min … max):    68.6 ms …  73.0 ms    40 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im4.ppm /tmp/tmp.NIlNMYXWj6 16
+  Time (mean ± σ):      71.3 ms ±   1.1 ms    [User: 44.6 ms, System: 42.9 ms]
+  Range (min … max):    69.1 ms …  73.8 ms    39 runs
+ 
+Benchmark 1: ./../threshold_par ../data/im4.ppm /tmp/tmp.NIlNMYXWj6 32
+  Time (mean ± σ):      72.8 ms ±   1.0 ms    [User: 44.4 ms, System: 45.8 ms]
+  Range (min … max):    71.0 ms …  75.5 ms    39 runs
+ 

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Models.meta
+guid: eec60278b54fa514fac208596adcb60e
+========
+guid: a63bdb6196ccdcc4aac894e9ed611dff
+>>>>>>>> level:Assets/Scripts.meta
+=======
+<<<<<<<< HEAD:Assets/SampleScenes/Models/industrial_mining_wdpnchedw.meta
+guid: d641cb60f872d834d87004b3d48605b3
+========
+guid: eec60278b54fa514fac208596adcb60e
+>>>>>>>> bosses:Assets/Models.meta
+>>>>>>> level
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

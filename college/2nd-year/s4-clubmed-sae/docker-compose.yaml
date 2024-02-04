@@ -1,0 +1,75 @@
+version: "3.9"
+services:
+  nginx:
+    container_name: nginx-clubmed
+    image: nginx:1.23.3-alpine
+    restart: unless-stopped
+    networks:
+      - dev
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - api
+
+  postgres:
+    container_name: postgres-clubmed
+    image: postgres:${POSTGRES_VERSION:-15.2-alpine}
+    build:
+      context: .
+      dockerfile: ./postgres.Dockerfile
+      args:
+        - POSTGRES_SCHEMA=${POSTGRES_SCHEMA:-clubmed}
+        - POSTGRES_VERSION=${POSTGRES_VERSION:-15.2-alpine}
+    restart: unless-stopped
+    networks:
+      - dev
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB:-clubmed}
+      - POSTGRES_USER=${POSTGRES_USER:-postgres}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-postgres}
+
+  api:
+    container_name: api-clubmed
+    image: api-clubmed
+    build: ./ApiClubMed
+    command: >
+      /root/.dotnet/tools/dotnet-ef database update
+      --project '/ApiClubMed/ApiClubMed.csproj'
+      --connection "Server=postgres;
+        port=5432;
+        Database=${POSTGRES_DB:-clubmed};
+        uid=${POSTGRES_USER:-postgres};
+        password=${POSTGRES_PASSWORD:-postgres};
+        SearchPath=${POSTGRES_SCHEMA:-clubmed};"
+    restart: unless-stopped
+    networks:
+      - dev
+    links:
+      - postgres
+    depends_on:
+      - postgres
+
+  vue:
+    container_name: vue-clubmed
+    image: vue-clubmed
+    build:
+      context: ./vue-clubmed
+      args:
+        - NODE_VERSION=${NODE_VERSION:-19-alpine}
+    restart: unless-stopped
+    networks:
+      - dev
+    depends_on:
+      - api
+
+volumes:
+  postgres:
+
+networks:
+  dev:
+    name: dev
+    driver: bridge

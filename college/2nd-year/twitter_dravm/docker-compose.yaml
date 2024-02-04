@@ -1,0 +1,65 @@
+version: "3.9"
+services:
+  nginx:
+    container_name: nginx-twitter
+    image: nginx:1.23.3-alpine
+    restart: unless-stopped
+    networks:
+      - twitter
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - rust
+
+  mongodb:
+    container_name: mongodb-twitter
+    image: mongo:6.0.5
+    restart: unless-stopped
+    networks:
+      - twitter
+    volumes:
+      - mongodb:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USERNAME:-root}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD:-example}
+
+  rust:
+    container_name: rust-twitter
+    image: rust-twitter
+    build: ./rust_twitter
+    restart: unless-stopped
+    environment:
+      - MONGO_URI=${MONGO_URI:-mongodb://root:example@mongodb}
+      - MONGO_DB=${MONGO_DB:-twitter_dravm}
+      - DATA_ROOT=${DATA_ROOT:-/rust_twitter/data}
+      - AXUM_PORT=${AXUM_PORT:-8080}
+      - JWT_SECRET=${JWT_SECRET:-}
+    networks:
+      - twitter
+    links:
+      - mongodb
+    depends_on:
+      - mongodb
+
+  vue:
+    container_name: vue-twitter
+    image: vue-twitter
+    restart: unless-stopped
+    build:
+      context: ./vue_twitter
+      args:
+        - NODE_VERSION=${NODE_VERSION:-19-alpine}
+    networks:
+      - twitter
+    depends_on:
+      - rust
+
+volumes:
+  mongodb:
+
+networks:
+  twitter:
+    name: twitter
+    driver: bridge

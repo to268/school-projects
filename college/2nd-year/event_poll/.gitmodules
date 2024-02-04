@@ -1,0 +1,3 @@
+[submodule "EventPollBackend"]
+	path = EventPollBackend
+	url = https://github.com/TristanPct/EventPollBackend.git

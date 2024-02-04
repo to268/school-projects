@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiClubMed", "ApiClubMed\ApiClubMed.csproj", "{BFF539E4-973B-4540-9AB0-73125033B7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClubMedTests", "ApiClubMedTests\ApiClubMedTests.csproj", "{159BB3C3-422C-49D5-A0F8-F7E03FDCA21C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFF539E4-973B-4540-9AB0-73125033B7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF539E4-973B-4540-9AB0-73125033B7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF539E4-973B-4540-9AB0-73125033B7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF539E4-973B-4540-9AB0-73125033B7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159BB3C3-422C-49D5-A0F8-F7E03FDCA21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159BB3C3-422C-49D5-A0F8-F7E03FDCA21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159BB3C3-422C-49D5-A0F8-F7E03FDCA21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159BB3C3-422C-49D5-A0F8-F7E03FDCA21C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DB2BF12-2C83-45FC-A93F-3F1ABDF2CB12}
+	EndGlobalSection
+EndGlobal

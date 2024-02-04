@@ -1,0 +1,26 @@
+../data/im1.ppm:
+Linux 6.5.3-1-MANJARO (benji-desktop) 	07.10.2023 	_x86_64_	(4 CPU)
+
+01:44:31          tps      rtps      wtps      dtps   bread/s   bwrtn/s   bdscd/s
+01:44:32         1,00      0,00      1,00      0,00      0,00      0,00      0,00
+01:44:33         1,00      0,00      1,00      0,00      0,00      0,00      0,00
+../data/im2.ppm:
+Linux 6.5.3-1-MANJARO (benji-desktop) 	07.10.2023 	_x86_64_	(4 CPU)
+
+01:44:37          tps      rtps      wtps      dtps   bread/s   bwrtn/s   bdscd/s
+01:44:38         1,00      0,00      1,00      0,00      0,00      0,00      0,00
+01:44:39         3,00      0,00      3,00      0,00      0,00     32,00      0,00
+../data/im3.ppm:
+Linux 6.5.3-1-MANJARO (benji-desktop) 	07.10.2023 	_x86_64_	(4 CPU)
+
+01:44:44          tps      rtps      wtps      dtps   bread/s   bwrtn/s   bdscd/s
+01:44:45         3,00      0,00      3,00      0,00      0,00     40,00      0,00
+01:44:46         1,00      0,00      1,00      0,00      0,00      0,00      0,00
+../data/im4.ppm:
+Linux 6.5.3-1-MANJARO (benji-desktop) 	07.10.2023 	_x86_64_	(4 CPU)
+
+01:44:59          tps      rtps      wtps      dtps   bread/s   bwrtn/s   bdscd/s
+01:45:00         1,00      0,00      1,00      0,00      0,00      0,00      0,00
+01:45:01        15,00      0,00     15,00      0,00      0,00    168,00      0,00
+01:45:02        41,00      0,00     41,00      0,00      0,00    360,00      0,00
+01:45:03         1,00      0,00      1,00      0,00      0,00      0,00      0,00

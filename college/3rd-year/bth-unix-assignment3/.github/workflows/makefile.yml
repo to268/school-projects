@@ -1,0 +1,27 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Download packages
+      run: |
+        sudo apt update
+        sudo apt install build-essential flex bison gcc -y
+
+    - name: Build project
+      run: make release
+
+    - name: Test project
+      run: |
+        make mrproper
+        make check

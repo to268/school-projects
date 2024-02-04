@@ -1,0 +1,26 @@
+/*=============== SEARCH ===============*/
+.search {
+    &__form {
+        display: inline-flex;
+        justify-content: center;
+        align-self: center;
+    }
+    &__input {
+        background: #e0dede;
+        justify-content: center;
+        display: flex;
+        margin: 20px auto;
+        margin-right: 10px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+    &__select {
+        @extend .search__input;
+        color: var(--text-color);
+    }
+    &__button{
+        @extend .search__input;
+    }
+}

@@ -1,0 +1,5 @@
+{"_id":{"$oid":"64242837d23f51d51df5d779"},"user":{"$oid":"642f4df24930801c36139839"},"content":"This is a sample tweet that is only purpose is to be a placeholder.\nI'm lonely :(","likes":3,"retweets":12,"timestamp":{"$date":"2022-11-04T06:42:35Z"}}
+{"_id":{"$oid":"64242837d23f51d51df5d77a"},"user":{"$oid":"642f4e5d4930801c3613983a"},"content":"Whoaah!\nTwitter is such a great place with the kind help of @elonmusk ♥♥","likes":12,"retweets":32,"timestamp":{"$date":"2023-01-24T18:03:14Z"}}
+{"_id":{"$oid":"64242837d23f51d51df5d77b"},"user":{"$oid":"642f4df24930801c36139839"},"content":"I hate @EmmanuelMacron, he needs to go away!\n#ReformeDesRetraites #MacronDemission","likes":24,"retweets":34,"timestamp":{"$date":"2022-12-19T13:47:35Z"}}
+{"_id":{"$oid":"64242837d23f51d51df5d77c"},"user":{"$oid":"642f4e5d4930801c3613983a"},"content":"A new album will be released tomorrow\nBe prepared!","likes":64,"retweets":124,"timestamp":{"$date":"2023-03-26T21:13:53Z"}}
+{"_id":{"$oid":"642f1f8c0f15208d8eb4a727"},"user":{"$oid":"642f4df24930801c36139839"},"content":"Hey, this is a test","likes":0,"retweets":0,"timestamp":{"$date":"2023-04-06T19:37:48.007Z"}}

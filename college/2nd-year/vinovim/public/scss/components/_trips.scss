@@ -1,0 +1,90 @@
+/*=============== TRIPS ===============*/
+.trips {
+    &__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    &__card {
+        position: relative;
+        background-color: var(--container-color);
+        padding: auto;
+        border: 1px solid var(--border-color);
+        text-align: center;
+        transition: 0.3s;
+        &:hover {
+            box-shadow: 0 8px 32px hsla(0, 0%, 10%, 0.1);
+        }
+    }
+    &__img {
+        width: fit-content;
+        margin-bottom: var(--mb-1);
+    }
+    &__title,
+    &__price {
+        font-size: var(--small-font-size);
+        font-weight: var(--font-medium);
+    }
+    &__title {
+        text-transform: uppercase;
+        margin-bottom: var(--mb-0-5);
+    }
+    &__price {
+        color: var(--first-color);
+    }
+    &__button {
+        background-color: var(--button-color);
+        padding: 0.4rem;
+        color: #fff;
+        font-size: 1rem;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: var(--button-color-alt);
+        }
+    }
+}
+
+/*=============== TRIP ===============*/
+.trip {
+    &__primary {
+        display: inline-flex;
+        &-img {
+            width: 50%;
+            object-fit: cover;
+        }
+    }
+
+    &__primary-info {
+        padding: 2rem;
+        background-color: var(--container-color);
+    }
+
+    &__details {
+        padding: 2rem;
+        background-color: var(--container-color);
+    }
+
+    &__stage {
+        display: inline-flex;
+        width: 100%;
+        &-title {
+            width: 50%;
+        }
+        &-desc {
+            width: 75%;
+        }
+    }
+
+    &__options{
+        padding: 2rem;
+        background-color: var(--container-color);
+        &-choice{
+            display: inline-flex;
+        }
+        p{width: 50%;}
+        img{width: 5rem; height:auto}
+    }
+}

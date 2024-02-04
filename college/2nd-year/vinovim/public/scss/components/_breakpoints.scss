@@ -1,0 +1,127 @@
+/*=============== BREAKPOINTS ===============*/
+/*============= MOBILE S, L & M =============*/
+@media screen and (max-width: 425px){
+    .container{
+        margin-left: var(--mb-0-5);
+        margin-right: var(--mb-0-5);
+    }
+
+    .home{
+        &__img-bg{
+            width: 220px;
+        }
+        &__title{
+            font-size: var(--h1-font-size);
+        }
+        &__button{
+            font-size: var(--smaller-font-size);
+        }
+    }
+
+    .trips__container{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+
+/*================= MI-TABLET =================*/
+@media screen and (min-width: 425px){
+    .home__img-bg{
+        width: 340px;
+    }
+
+    .footer__container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .trips{
+        &__container{
+            grid-template-columns: auto;
+            justify-content: center;
+        }
+        &__card{
+            padding: 2rem 0;
+            min-width: 330px;
+            max-width: 490px;
+        }
+        &__img{
+            height: 155px;
+        }
+    }
+}
+
+/*================= TABLET =================*/
+@media screen and (min-width: 760px){
+    .section{
+        padding: 8rem 0 1rem;
+    }
+
+    .trips{
+        &__container{
+            grid-template-columns: repeat(auto-fill, 300px);
+            justify-content: center;
+            gap: 2.5rem;
+        }
+        &__card{
+            padding: 2rem 0;
+        }
+        &__img{
+            height: 155px;
+        }
+    }
+
+    .footer{
+        &__container{
+            grid-template-columns: repeat(4, max-content);
+            justify-content: space-between;
+        }
+        &__title{
+            font-size: var(--h3-font-size);
+        }
+    }
+}
+
+/*================= MI-LAPTOP =================*/
+@media screen and (min-width: 992px){
+    .section__title{
+        font-size: var(--h2-font-size);
+    }
+
+    .nav{
+        height: calc(var(--header-height) + 1.5rem);
+        justify-content: initial;
+        column-gap: 3rem;
+
+        &__toggle,
+        &__close{
+            display: none;
+        }
+        &__list{
+            flex-direction: row;
+            column-gap: 2.5rem;
+        }
+        &__link{
+            text-transform: initial;
+            font-size: var(--normal-font-size);
+        }
+        &__btns{
+            margin-left: auto;
+        }
+    }
+
+    .trips__container{
+        padding-top: 2rem;
+    }
+}
+
+/* =====LAPTOP===== */
+@media screen and (min-width: 1024px){
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .scrollup{
+        right: 3rem;
+    }
+}

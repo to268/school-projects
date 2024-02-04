@@ -1,0 +1,20 @@
+# started on Sat Oct  7 01:42:45 2023
+
+
+ Performance counter stats for './../blur 15 ../data/im4.ppm /tmp/tmp.JQd1tAOa8F':
+
+          1.057,28 msec task-clock:u                     #    0,999 CPUs utilized             
+                 0      context-switches:u               #    0,000 /sec                      
+                 0      cpu-migrations:u                 #    0,000 /sec                      
+             7.055      page-faults:u                    #    6,673 K/sec                     
+     3.810.860.603      cycles:u                         #    3,604 GHz                       
+    11.764.156.593      instructions:u                   #    3,09  insn per cycle            
+       409.018.151      branches:u                       #  386,857 M/sec                     
+           266.917      branch-misses:u                  #    0,07% of all branches           
+
+       1,058101795 seconds time elapsed
+
+       1,016026000 seconds user
+       0,039532000 seconds sys
+
+

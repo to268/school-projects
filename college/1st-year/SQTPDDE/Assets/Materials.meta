@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials.meta
+guid: f349c444855a60341a614f46a015ebc3
+========
+<<<<<<< HEAD
+guid: 0346812df6dbef246bd635be6f788e7a
+>>>>>>>> level:Assets/Models/skeleton.meta
+=======
+guid: db9fd23020f38dd47a170b3bac6e2619
+>>>>>>>> bosses:Assets/Historic environment.meta
+>>>>>>> level
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

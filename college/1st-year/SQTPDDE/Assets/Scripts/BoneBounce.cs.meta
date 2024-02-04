@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/BoneBounce.cs.meta
+guid: 88d88215cad044d4484011d54293aaaf
+========
+guid: a842ef7ef0702f84c9412c4064079dcd
+>>>>>>>> level:Assets/Scripts/BossBehavior.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

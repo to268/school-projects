@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials/Steel.mat.meta
+guid: 7e79cc93de6da8749891149bc2bdf6d5
+========
+guid: ad55398536073bf4fac4939dd7dceda8
+>>>>>>>> bosses:Assets/Materials/fire.mat.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

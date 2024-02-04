@@ -1,0 +1,16 @@
+Benchmark 1: ./../blur 15 ../data/im1.ppm /tmp/tmp.CEUxPYMt5x
+  Time (mean ± σ):      67.4 ms ±   2.1 ms    [User: 59.8 ms, System: 7.3 ms]
+  Range (min … max):    65.4 ms …  77.2 ms    43 runs
+ 
+Benchmark 1: ./../blur 15 ../data/im2.ppm /tmp/tmp.CEUxPYMt5x
+  Time (mean ± σ):     134.3 ms ±   3.3 ms    [User: 123.3 ms, System: 10.7 ms]
+  Range (min … max):   130.8 ms … 142.9 ms    21 runs
+ 
+Benchmark 1: ./../blur 15 ../data/im3.ppm /tmp/tmp.CEUxPYMt5x
+  Time (mean ± σ):     237.6 ms ±   1.5 ms    [User: 221.9 ms, System: 15.3 ms]
+  Range (min … max):   236.1 ms … 241.4 ms    12 runs
+ 
+Benchmark 1: ./../blur 15 ../data/im4.ppm /tmp/tmp.CEUxPYMt5x
+  Time (mean ± σ):      1.068 s ±  0.016 s    [User: 1.027 s, System: 0.040 s]
+  Range (min … max):    1.052 s …  1.091 s    10 runs
+ 

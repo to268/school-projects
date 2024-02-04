@@ -1,0 +1,7 @@
+ARG POSTGRES_SCHEMA
+ARG POSTGRES_VERSION
+
+FROM postgres:${POSTGRES_VERSION}
+EXPOSE 5432/tcp
+
+RUN echo "CREATE SCHEMA IF NOT EXISTS ${POSTGRES_SCHEMA};" > /docker-entrypoint-initdb.d/schema.sql

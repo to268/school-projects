@@ -1,0 +1,36 @@
+[package]
+name = "backend-real-estate"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+opt-level = 3
+lto = true
+
+[workspace]
+members = [".", "entity", "migration"]
+
+[dependencies]
+entity = { path = "entity" }
+migration = { path = "migration" }
+
+axum = "0.6.19"
+axum-extra = "0.7.5"
+axum-macros = "0.3.8"
+tokio = { version = "1.29.1", features = ["full"] }
+tower = "0.4.13"
+tower-http = { version = "0.4.3", features = ["full"] }
+tracing = "0.1.37"
+tracing-subscriber = "0.3.17"
+
+dotenv = "0.15.0"
+
+serde = { version = "1.0.174", features = ["derive"] }
+serde_json = "1.0.103"
+serde_derive = "1.0.174"
+sea-orm = { version = "0.11.3", features = ["sqlx-postgres", "runtime-tokio-rustls", "macros"]}
+
+lazy_static = "1.4.0"
+async_once = "0.2.6"

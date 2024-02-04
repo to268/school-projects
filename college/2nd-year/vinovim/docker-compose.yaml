@@ -1,0 +1,43 @@
+version: '3.9'
+
+services:
+  postgresql:
+    container_name: postgresql
+    image: postgres:11.18-bullseye
+    restart: unless-stopped
+    networks:
+      - vinovim
+    volumes:
+      - 'postgresql:/var/lib/postgresql/data'
+    environment:
+      - POSTGRES_DB=vinovim
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+
+  laravel:
+    container_name: laravel
+    image: docker.io/bitnami/laravel:9
+    restart: unless-stopped
+    networks:
+      - vinovim
+    ports:
+      - '8080:8000'
+    volumes:
+      - './:/app'
+    environment:
+      - DB_CONNECTION=pgsql
+      - DB_HOST=postgresql
+      - DB_PORT=5432
+      - DB_DATABASE=vinovim
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=postgres
+    depends_on:
+      - postgresql
+
+volumes:
+  postgresql:
+
+networks:
+  vinovim:
+    name: vinovim
+    driver: bridge

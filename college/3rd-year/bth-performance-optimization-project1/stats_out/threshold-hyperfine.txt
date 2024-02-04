@@ -1,0 +1,16 @@
+Benchmark 1: ./../threshold ../data/im1.ppm /tmp/tmp.2WGhTaEk6u
+  Time (mean ± σ):       8.4 ms ±   0.4 ms    [User: 3.6 ms, System: 5.0 ms]
+  Range (min … max):     7.6 ms …  11.6 ms    273 runs
+ 
+Benchmark 1: ./../threshold ../data/im2.ppm /tmp/tmp.2WGhTaEk6u
+  Time (mean ± σ):      14.0 ms ±   0.6 ms    [User: 6.2 ms, System: 7.7 ms]
+  Range (min … max):    12.4 ms …  15.2 ms    175 runs
+ 
+Benchmark 1: ./../threshold ../data/im3.ppm /tmp/tmp.2WGhTaEk6u
+  Time (mean ± σ):      21.7 ms ±   0.8 ms    [User: 8.8 ms, System: 12.8 ms]
+  Range (min … max):    20.3 ms …  23.6 ms    122 runs
+ 
+Benchmark 1: ./../threshold ../data/im4.ppm /tmp/tmp.2WGhTaEk6u
+  Time (mean ± σ):      72.4 ms ±   1.2 ms    [User: 36.8 ms, System: 35.4 ms]
+  Range (min … max):    70.4 ms …  75.6 ms    40 runs
+ 

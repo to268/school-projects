@@ -1,0 +1,20 @@
+# started on Sat Oct  7 01:42:48 2023
+
+
+ Performance counter stats for './../threshold ../data/im4.ppm /tmp/tmp.BQvLybi4jR':
+
+             70,42 msec task-clock:u                     #    0,994 CPUs utilized             
+                 0      context-switches:u               #    0,000 /sec                      
+                 0      cpu-migrations:u                 #    0,000 /sec                      
+             6.322      page-faults:u                    #   89,770 K/sec                     
+       124.061.950      cycles:u                         #    1,762 GHz                       
+       236.003.724      instructions:u                   #    1,90  insn per cycle            
+        20.164.944      branches:u                       #  286,335 M/sec                     
+            15.996      branch-misses:u                  #    0,08% of all branches           
+
+       0,070817411 seconds time elapsed
+
+       0,030291000 seconds user
+       0,040380000 seconds sys
+
+
