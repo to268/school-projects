@@ -1,0 +1,473 @@
+[
+  {
+    "_id": {
+      "$oid": "6669456508886324b7168e27"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e73"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e7b"
+    },
+    "startDate": {
+      "$date": "2023-03-24T09:30:00.000Z"
+    },
+    "endDate": {
+      "$date": "2023-03-25T12:00:00.000Z"
+    },
+    "state": "PENDING",
+    "reason": "Consultation médicale pour une personne de 55 ans",
+    "description": "Examen médical pour une personne âgée",
+    "price": 125,
+    "eventId": "66666666666666666666666",
+    "attachedFiles": ["file6.pdf", "file7.docx"]
+  },
+  {
+    "_id": {
+      "$oid": "6669456508886324b7168e22"
+    },
+    "doctor": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e76"
+    },
+    "startDate": {
+      "$date": "2024-06-20T16:30:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-20T02:17:00.000Z"
+    },
+    "state": "CONFIRMED",
+    "reason": "Consultation médicale",
+    "description": "Examen médical pour une personne de 35 ans",
+    "price": 50,
+    "eventId": "11111111111111111111111",
+    "attachedFiles": ["file1.pdf", "file2.docx"]
+  },
+  {
+    "_id": {
+      "$oid": "6669456508886324b7168e23"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e73"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e77"
+    },
+    "startDate": {
+      "$date": "2023-03-20T09:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2023-03-21T16:00:00.000Z"
+    },
+    "state": "CANCELLED",
+    "reason": "Maladie de l'enfant",
+    "description": "Consultation médicale pour un enfant de 8 ans",
+    "price": 0,
+    "eventId": "22222222222222222222222",
+    "attachedFiles": []
+  },
+  {
+    "_id": {
+      "$oid": "6669456508886324b7168e25"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e75"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e79"
+    },
+    "startDate": {
+      "$date": "2023-03-22T14:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2023-03-23T16:30:00.000Z"
+    },
+    "state": "CONFIRMED",
+    "reason": "Consultation médicale pour une personne de 40 ans",
+    "description": "Examen médical pour une personne âgée",
+    "price": 75,
+    "eventId": "44444444444444444444444",
+    "attachedFiles": ["file4.docx", "file5.pdf"]
+  },
+  {
+    "_id": {
+      "$oid": "6669456508886324b7168e26"
+    },
+    "doctor": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e7a"
+    },
+    "startDate": {
+      "$date": "2023-03-27T16:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2023-03-28T18:30:00.000Z"
+    },
+    "state": "CANCELLED",
+    "reason": "Maladie de l'enfant",
+    "description": "Consultation médicale pour un enfant de 10 ans",
+    "price": 0,
+    "eventId": "55555555555555555555555",
+    "attachedFiles": []
+  },
+  {
+    "_id": {
+      "$oid": "6669456508886324b7168e28"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e74"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e76"
+    },
+    "startDate": {
+      "$date": "2023-03-29T14:30:00.000Z"
+    },
+    "endDate": {
+      "$date": "2023-03-30T16:30:00.000Z"
+    },
+    "state": "CONFIRMED",
+    "reason": "Consultation médicale pour une personne de 45 ans",
+    "description": "Examen médical pour une personne âgée",
+    "price": 50,
+    "eventId": "77777777777777777777777",
+    "attachedFiles": ["file8.pdf"]
+  },
+  {
+    "_id": {
+      "$oid": "6669456508886324b7168e29"
+    },
+    "doctor": {
+      "$oid": "6673d6e14484617fef908362"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e77"
+    },
+    "startDate": {
+      "$date": "2023-03-26T10:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2023-03-27T12:30:00.000Z"
+    },
+    "state": "CANCELLED",
+    "reason": "Maladie de l'enfant",
+    "description": "Consultation médicale pour un enfant de 7 ans",
+    "price": 0,
+    "eventId": "88888888888888888888888",
+    "attachedFiles": []
+  },
+  {
+    "_id": {
+      "$oid": "6669456508886324b7168e2b"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e73"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e79"
+    },
+    "startDate": {
+      "$date": "2023-03-28T09:30:00.000Z"
+    },
+    "endDate": {
+      "$date": "2023-03-29T11:00:00.000Z"
+    },
+    "state": "CONFIRMED",
+    "reason": "Consultation médicale pour une personne de 60 ans",
+    "description": "Examen médical pour une personne âgée",
+    "price": 75,
+    "eventId": "10101010101010101010101",
+    "attachedFiles": ["file11.pdf"]
+  },
+  {
+    "_id": {
+      "$oid": "6669456508886324b7168e24"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e74"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e78"
+    },
+    "startDate": {
+      "$date": "2023-03-25T10:30:00.000Z"
+    },
+    "endDate": {
+      "$date": "2023-03-26T12:00:00.000Z"
+    },
+    "state": "PENDING",
+    "reason": "Consultation médicale pour une personne de 60 ans",
+    "description": "Examen médical pour une personne âgée",
+    "price": 100,
+    "eventId": "33333333333333333333333",
+    "attachedFiles": ["file3.pdf"]
+  },
+  {
+    "_id": {
+      "$oid": "6669456508886324b7168e2a"
+    },
+    "doctor": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e78"
+    },
+    "startDate": {
+      "$date": "2023-03-23T14:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2023-03-24T16:30:00.000Z"
+    },
+    "state": "PENDING",
+    "reason": "Consultation médicale pour une personne de 50 ans",
+    "description": "Examen médical pour une personne âgée",
+    "price": 100,
+    "eventId": "99999999999999999999999",
+    "attachedFiles": ["file9.pdf", "file10.docx"]
+  },
+  {
+    "_id": {
+      "$oid": "6673ea19397ab8fd1d754aca"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e77"
+    },
+    "startDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6673ea47397ab8fd1d754ad2"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e77"
+    },
+    "startDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "description": "<p>ceci est un test</p>",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6673eb0ec11227d5fa563e40"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e77"
+    },
+    "startDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "description": "<p>ceci est une autre test</p>",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66740c28ecf9c427fba6639c"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e77"
+    },
+    "startDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "reason": "test",
+    "description": "<p>fzeFGSFSFZ</p>",
+    "color": "#cc1414",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66740c5990c9258f9a247eed"
+    },
+    "doctor": {
+      "$oid": "6669459208886324b7168e6b"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e77"
+    },
+    "startDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "reason": "test",
+    "description": "<p>qdqdqdqd</p>",
+    "color": "#851414",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66742abfba60939076e019c4"
+    },
+    "doctor": {
+      "$oid": "6669459208886324b7168e6b"
+    },
+    "patient": {
+      "$oid": "6669459208886324b7168e6a"
+    },
+    "startDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "color": "#000000",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66742c604c071adab6d6cdea"
+    },
+    "doctor": {
+      "$oid": "6669459208886324b7168e6b"
+    },
+    "patient": {
+      "$oid": "6669459208886324b7168e6a"
+    },
+    "startDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "reason": "test",
+    "description": "<p>dADADADA</p>",
+    "color": "#000000",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6674372278aca1f80abff0c8"
+    },
+    "startDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "reason": "test200",
+    "description": "<p>dqdqdqdq</p>",
+    "color": "#000000",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6674401cc51f61d423270835"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e73"
+    },
+    "patient": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "reason": "test201",
+    "description": "<p>dqdqdqdq</p>",
+    "color": "#000000",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "667440a6c51f61d42327086a"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e73"
+    },
+    "patient": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "reason": "sfzsfqfqfq",
+    "description": "<p>fqfqfqfq</p>",
+    "color": "#000000",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "667531a3c0ba508b1e9f4602"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e72"
+    },
+    "patient": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "reason": "rdv important",
+    "description": "<p>dbqdboqdqd</p>",
+    "color": "#f01414",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66753362c0ba508b1e9f467c"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e72"
+    },
+    "patient": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "startDate": {
+      "$date": "2024-06-21T11:01:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-21T12:01:00.000Z"
+    },
+    "reason": "consultation medical",
+    "description": "<p>qdqdqdddqdq</p>",
+    "color": "#f90606",
+    "attachedFiles": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "667564eb66b990ab8f4cc611"
+    },
+    "doctor": {
+      "$oid": "666945a808886324b7168e74"
+    },
+    "patient": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "startDate": {
+      "$date": "2024-06-21T11:32:00.000Z"
+    },
+    "endDate": {
+      "$date": "2024-06-21T13:00:00.000Z"
+    },
+    "reason": "rdv médical",
+    "description": "<p>kugugugi</p>",
+    "color": "#73f282",
+    "attachedFiles": [],
+    "__v": 0
+  }
+]

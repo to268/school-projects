@@ -1,0 +1,762 @@
+[
+  {
+    "_id": {
+      "$oid": "666945a808886324b7168e76"
+    },
+    "firstName": "François",
+    "lastName": "Bourgeois",
+    "email": "francois.bourgeois@example.fr",
+    "password": "mypassword123",
+    "birthDate": {
+      "$date": {
+        "$numberLong": "-222742800000"
+      }
+    },
+    "activated": true,
+    "secretToken": null,
+    "role": "user",
+    "sex": "Homme",
+    "address": {
+      "road": "Place Bellecour",
+      "city": "Lyon",
+      "postalCode": "69002",
+      "state": "Auvergne-Rhône-Alpes"
+    },
+    "phone": {
+      "mobile": ["0765432189"],
+      "landline": []
+    },
+    "job": "Chef de projet",
+    "__v": 1,
+    "availability": [],
+    "date": {
+      "$date": "2024-06-21T14:41:26.078Z"
+    },
+    "diploma": [],
+    "invoices": [
+      {
+        "$oid": "66759115d9c615ca5c331a29"
+      }
+    ],
+    "otherSpecialties": [],
+    "reviews": [],
+    "subscribers": [],
+    "tags": [],
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47af"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666945a808886324b7168e7b"
+    },
+    "firstName": "Camille",
+    "lastName": "Dujardin",
+    "email": "camille.dujardin@example.fr",
+    "password": "mypassword123",
+    "birthDate": {
+      "$date": "1998-04-17T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": null,
+    "role": "user",
+    "sex": "Femme",
+    "address": {
+      "road": "Rue de Vaugirard",
+      "city": "Paris",
+      "postalCode": "75015",
+      "state": "Île-de-France"
+    },
+    "phone": {
+      "mobile": ["0654321098"],
+      "landline": ["0165432109"]
+    },
+    "job": "Photographe"
+  },
+  {
+    "_id": {
+      "$oid": "666945a808886324b7168e77"
+    },
+    "firstName": "Laure",
+    "lastName": "Roux",
+    "email": "laure.roux@example.fr",
+    "password": "mypassword123",
+    "birthDate": {
+      "$date": "1993-06-20T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": null,
+    "role": "user",
+    "sex": "Femme",
+    "address": {
+      "road": "Rue Saint-Honoré",
+      "city": "Paris",
+      "postalCode": "75001",
+      "state": "Île-de-France"
+    },
+    "phone": {
+      "mobile": ["0621436587"],
+      "landline": ["0123456789"]
+    },
+    "job": "Designer"
+  },
+  {
+    "_id": {
+      "$oid": "6669b2f4d28a2b59d5fde0c4"
+    },
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "email": "mosad91751@kernuo.com",
+    "password": "$2a$10$H2hZcaPouA2MG8h.uRyrJ.VZ6vsg3eMzyEqi/64kkNtCAiJ/9QNuq",
+    "birthDate": {
+      "$date": "1999-02-06T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": "",
+    "role": "user",
+    "sex": "Homme",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66752862f71028e628620ac4"
+    },
+    "firstName": "Test",
+    "lastName": "Test",
+    "email": "test@test.fr",
+    "password": "$2a$10$ZJdQk/9OTHa9Pl/tciNoNeWQOzvDaLhZFprFSQA/C5Hp3eyb0ZJNe",
+    "birthDate": {
+      "$date": "2003-08-27T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": "",
+    "role": "doctor",
+    "sex": "Homme",
+    "__v": 0,
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47af"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6671390baaa89d3618442fc4"
+    },
+    "firstName": "sqdsqdsqdsqsd",
+    "lastName": "qdsqdsqdsqdsqd",
+    "email": "sqdsqdsqdsqdsqd@sqdsqdsqdsq.com",
+    "password": "$2a$10$TvKbO8NXRRDe/QY3xJaxJOHivTB75a3yN6DR7GNc37HbqmAtTUNB6",
+    "birthDate": {
+      "$date": "2002-08-14T00:00:00.000Z"
+    },
+    "activated": false,
+    "secretToken": "2be9ef3583e396c9bfae73583eec5a8da4638287",
+    "role": "patient",
+    "sex": "Homme",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6669bcb6603b6f1411d21d45"
+    },
+    "firstName": "dsffds",
+    "lastName": "dfsdf",
+    "email": "monmail@gmail.com",
+    "password": "$2a$10$8AUYz35b4jxuXVn6D6FY4.5Sz9PMYtchfHIQe0278EUJhDB8swLQi",
+    "birthDate": {
+      "$date": "1990-07-10T00:00:00.000Z"
+    },
+    "activated": false,
+    "secretToken": "7a1b73d3919afdcd93435fc9a3bf6751763aa419",
+    "role": "doctor",
+    "sex": "Homme",
+    "__v": 0,
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47af"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666945a808886324b7168e75"
+    },
+    "firstName": "Emilie",
+    "lastName": "Lefebvre",
+    "email": "emilie.lefebvre@example.fr",
+    "password": "mypassword123",
+    "birthDate": {
+      "$date": "1995-08-18T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": null,
+    "role": "doctor",
+    "sex": "Femme",
+    "address": {
+      "road": "Rue de Rivoli",
+      "city": "Paris",
+      "postalCode": "75001",
+      "state": "Île-De-France"
+    },
+    "phone": {
+      "mobile": ["0612345977"],
+      "landline": ["0142558077"]
+    },
+    "diploma": ["Docteur en Médecine (MD"],
+    "diplomaImg": "/path/to/doctor4.jpg",
+    "rating": 5,
+    "mainSpecialty": "Pédodontie",
+    "otherSpecialties": ["Gynécologie", "Ostéopathie"],
+    "subscribers": [],
+    "socials": {
+      "youtube": "https://www.youtube.com/c/doctor4",
+      "twitter": "@doctor4",
+      "facebook": "https://www.facebook.com/doctor4",
+      "linkedin": "https://www.linkedin.com/in/doctor4",
+      "instagram": "https://www.instagram.com/doctor4",
+      "tiktok": "https://www.tiktok.com/doctor4"
+    },
+    "date": {
+      "$date": "2023-02-17T12:00:00.000Z"
+    },
+    "cv": "/path/to/cv_doctor4.pdf",
+    "bio": "Dr. Sophie Dupont is a pediatrician with over 10 years of experience.",
+    "job": "Pédodontiste",
+    "tags": ["Pédodontie", "Gynécologie"],
+    "avatar": "/path/to/avatar_doctor4.jpg",
+    "availability": [
+      {
+        "startDate": {
+          "$date": "2023-03-17T00:00:00.000Z"
+        },
+        "endDate": {
+          "$date": "2023-04-30T23:59:59.999Z"
+        }
+      }
+    ],
+    "video": "/path/to/video_doctor4.mp4",
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47af"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666945a808886324b7168e72"
+    },
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "email": "pierre.dupont@example.fr",
+    "password": "mypassword123",
+    "birthDate": {
+      "$date": "1990-07-12T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": null,
+    "role": "doctor",
+    "sex": "Homme",
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47b0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666945a808886324b7168e73"
+    },
+    "firstName": "Sophie",
+    "lastName": "Martin",
+    "email": "sophie.martin@example.fr",
+    "password": "mypassword123",
+    "birthDate": {
+      "$date": "1991-02-15T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": null,
+    "role": "doctor",
+    "sex": "Femme",
+    "address": {
+      "road": "Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75008",
+      "state": "Île-De-France"
+    },
+    "phone": {
+      "mobile": ["0612345733"],
+      "landline": ["0142557833"]
+    },
+    "diploma": ["Docteur en Médecine (MD)"],
+    "diplomaImg": "/path/to/doctor2.jpg",
+    "rating": 4.8,
+    "mainSpecialty": "Neurologie",
+    "otherSpecialties": ["Psychiatrie", "Chirurgie"],
+    "subscribers": [],
+    "socials": {
+      "youtube": "https://www.youtube.com/c/doctor2",
+      "twitter": "@doctor2",
+      "facebook": "https://www.facebook.com/doctor2",
+      "linkedin": "https://www.linkedin.com/in/doctor2",
+      "instagram": "https://www.instagram.com/doctor2",
+      "tiktok": "https://www.tiktok.com/doctor2"
+    },
+    "date": {
+      "$date": "2023-02-15T12:00:00.000Z"
+    },
+    "cv": "/path/to/cv_doctor2.pdf",
+    "bio": "Dr. Marie Dupont is a neurologist with over 10 years of experience.",
+    "job": "Neurologue",
+    "tags": ["Neuro", "Psychiatrie"],
+    "avatar": "/path/to/avatar_doctor2.jpg",
+    "availability": [
+      {
+        "startDate": {
+          "$date": "2023-03-15T00:00:00.000Z"
+        },
+        "endDate": {
+          "$date": "2023-04-30T23:59:59.999Z"
+        }
+      }
+    ],
+    "video": "/path/to/video_doctor2.mp4",
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47b0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666945a808886324b7168e7a"
+    },
+    "firstName": "Thierry",
+    "lastName": "Fournier",
+    "email": "thierry.fournier@example.fr",
+    "password": "mypassword123",
+    "birthDate": {
+      "$date": {
+        "$numberLong": "-134956800000"
+      }
+    },
+    "activated": true,
+    "secretToken": null,
+    "role": "user",
+    "sex": "Homme",
+    "address": {
+      "road": "Boulevard Voltaire",
+      "city": "Paris",
+      "postalCode": "75011",
+      "state": "Île-de-France"
+    },
+    "phone": {
+      "mobile": ["0756341298"]
+    },
+    "job": "Consultant"
+  },
+  {
+    "_id": {
+      "$oid": "666945a808886324b7168e78"
+    },
+    "firstName": "Étienne",
+    "lastName": "Pierre",
+    "email": "etienne.pierre@example.fr",
+    "password": "mypassword123",
+    "birthDate": {
+      "$date": "1978-03-15T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": null,
+    "role": "user",
+    "sex": "Homme",
+    "address": {
+      "road": "Cours Emile Zola",
+      "city": "Villeurbanne",
+      "postalCode": "69100",
+      "state": "Auvergne-Rhône-Alpes"
+    },
+    "phone": {
+      "mobile": ["0712345678"],
+      "landline": []
+    },
+    "job": "Journaliste",
+    "__v": 1,
+    "availability": [],
+    "date": {
+      "$date": "2024-06-21T14:25:44.915Z"
+    },
+    "diploma": [],
+    "invoices": [
+      {
+        "$oid": "66758d68e74614cd0fcc6a83"
+      }
+    ],
+    "otherSpecialties": [],
+    "reviews": [],
+    "subscribers": [],
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "666945a808886324b7168e79"
+    },
+    "firstName": "Alice",
+    "lastName": "Leroy",
+    "email": "alice.leroy@example.fr",
+    "password": "mypassword123",
+    "birthDate": {
+      "$date": "1992-01-10T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": null,
+    "role": "user",
+    "sex": "Femme",
+    "address": {
+      "road": "Avenue Jean Jaurès",
+      "city": "Lyon",
+      "postalCode": "69007",
+      "state": "Auvergne-Rhône-Alpes"
+    },
+    "phone": {
+      "mobile": ["0687654321"]
+    },
+    "job": "Ingénieur"
+  },
+  {
+    "_id": {
+      "$oid": "666945a808886324b7168e74"
+    },
+    "firstName": "Marc",
+    "lastName": "Thomas",
+    "email": "marc.thomas@example.fr",
+    "password": "mypassword123",
+    "birthDate": {
+      "$date": "1985-05-23T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": null,
+    "role": "doctor",
+    "sex": "Homme",
+    "address": {
+      "road": "Avenue des Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75008",
+      "state": "Île-De-France"
+    },
+    "phone": {
+      "mobile": ["06 12 34 58"],
+      "landline": ["01 42 55 79"]
+    },
+    "diploma": ["Docteur en Médecine (MD"],
+    "diplomaImg": "/path/to/doctor3.jpg",
+    "rating": 4.9,
+    "mainSpecialty": "Chirurgie",
+    "otherSpecialties": ["Orthopédie", "Urologie"],
+    "subscribers": [],
+    "socials": {
+      "youtube": "https://www.youtube.com/c/doctor3",
+      "twitter": "@doctor3",
+      "facebook": "https://www.facebook.com/doctor3",
+      "linkedin": "https://www.linkedin.com/in/doctor3",
+      "instagram": "https://www.instagram.com/doctor3",
+      "tiktok": "https://www.tiktok.com/doctor3"
+    },
+    "date": {
+      "$date": "2023-02-16T12:00:00.000Z"
+    },
+    "cv": "/path/to/cv_doctor3.pdf",
+    "bio": "Dr. Jacques Dupont is a surgeon with over 10 years of experience.",
+    "job": "Chirurgien",
+    "tags": ["Chirurgie", "Orthopédie"],
+    "avatar": "/path/to/avatar_doctor3.jpg",
+    "availability": [
+      {
+        "startDate": {
+          "$date": "2023-03-16T00:00:00.000Z"
+        },
+        "endDate": {
+          "$date": "2023-04-30T23:59:59.999Z"
+        }
+      }
+    ],
+    "video": "/path/to/video_doctor3.mp4",
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47b0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "firstName": "Samuel",
+    "lastName": "Pochat",
+    "email": "pochatsamuel6652@gmail.com",
+    "password": "$2a$10$wlVYRYmdYuyNRsGTnnduo.DcF7s7k4pgdgFzIADjvjv2T4gmsPxey",
+    "birthDate": {
+      "$date": "2003-08-27T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": "",
+    "role": "patient",
+    "sex": "Homme",
+    "address": {
+      "road": "Rue de la Paix",
+      "city": "Paris",
+      "postalCode": "75002",
+      "state": "Île-De-France"
+    },
+    "phone": {
+      "mobile": ["0612345633"],
+      "landline": ["0142557733"]
+    },
+    "diploma": ["Docteur en Médecine (MD)"],
+    "diplomaImg": "/path/to/doctor1.jpg",
+    "rating": 5,
+    "mainSpecialty": "Cardiologie",
+    "otherSpecialties": ["Gastro-entérologie", "Pédiatrie"],
+    "subscribers": [],
+    "socials": {
+      "youtube": "https://www.youtube.com/c/doctor1",
+      "twitter": "@doctor1",
+      "facebook": "https://www.facebook.com/doctor1",
+      "linkedin": "https://www.linkedin.com/in/doctor1",
+      "instagram": "https://www.instagram.com/doctor1",
+      "tiktok": "https://www.tiktok.com/doctor1"
+    },
+    "date": {
+      "$date": "2023-02-14T12:00:00.000Z"
+    },
+    "cv": "/path/to/cv_doctor1.pdf",
+    "bio": "Dr. François Dupont is a cardiologist with over 10 years of experience.",
+    "job": "Cardiologue",
+    "tags": ["Cardio", "Gastro-entérologie"],
+    "avatar": "/path/to/avatar_doctor1.jpg",
+    "availability": [
+      {
+        "startDate": {
+          "$date": "2023-03-01T00:00:00.000Z"
+        },
+        "endDate": {
+          "$date": "2023-04-30T23:59:59.999Z"
+        }
+      }
+    ],
+    "video": "/path/to/video_doctor1.mp4",
+    "invoices": [
+      {
+        "$oid": "6673ea120fac44a0ef3af69a"
+      },
+      {
+        "$oid": "667417a86152b08a80b8b853"
+      },
+      {
+        "$oid": "667417b96152b08a80b8b869"
+      },
+      {
+        "$oid": "667417cb6152b08a80b8b880"
+      },
+      {
+        "$oid": "6674193bb56e18bcfaa6ef63"
+      },
+      {
+        "$oid": "66741a581338e147f52a2cfa"
+      },
+      {
+        "$oid": "66741a811338e147f52a2d0a"
+      },
+      {
+        "$oid": "667434098bdec6d7963c55ce"
+      },
+      {
+        "$oid": "66753cfa67fe8f2f0435ac41"
+      },
+      {
+        "$oid": "66753dd01f576488c4edd32a"
+      },
+      {
+        "$oid": "66759115d9c615ca5c331a29"
+      }
+    ],
+    "reviews": [],
+    "__v": 1,
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47af"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "667685a4cd45f4bab044fa79"
+    },
+    "__v": 0,
+    "activated": false,
+    "availability": [],
+    "date": {
+      "$date": "2024-06-22T08:04:52.783Z"
+    },
+    "diploma": [],
+    "invoices": [],
+    "otherSpecialties": [],
+    "phone": {
+      "mobile": [],
+      "landline": []
+    },
+    "reviews": [],
+    "subscribers": [],
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6676c3724189dfc81f8ebb0b"
+    },
+    "firstName": "adil",
+    "lastName": "khadich",
+    "email": "adilkhadich@gmail.com",
+    "password": "$2a$10$bF88KsMNV96isSAZcwFxIeq4TTChd3qGXdWpkaXGg3yjiaiUsSbqu",
+    "birthDate": {
+      "$date": "2003-04-04T00:00:00.000Z"
+    },
+    "activated": false,
+    "secretToken": "bfb237d460b999a766cf7c7cbcf1b42564de35c0",
+    "role": "doctor",
+    "sex": "Homme",
+    "phone": {
+      "mobile": [],
+      "landline": []
+    },
+    "diploma": [],
+    "otherSpecialties": [],
+    "subscribers": [],
+    "tags": [],
+    "invoices": [],
+    "date": {
+      "$date": "2024-06-22T12:28:34.208Z"
+    },
+    "availability": [],
+    "reviews": [],
+    "__v": 0,
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47b1"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6676c4c2fc06d9811ba44a0d"
+    },
+    "firstName": "sdfsdfsdf",
+    "lastName": "sdfsfdsf",
+    "email": "sfsfsfsf@dsfdsfsd.ffr",
+    "password": "$2a$10$o4EkaUQ58slDjss8AglHsefJzUtBhLZAjfx9FE/v/S9lQSnNEvxYS",
+    "birthDate": {
+      "$date": "2003-07-17T00:00:00.000Z"
+    },
+    "activated": false,
+    "secretToken": "861a95d12cadfbc1ab7ff6516f66f3faf2fe9dd2",
+    "role": "patient",
+    "sex": "Homme",
+    "phone": {
+      "mobile": [],
+      "landline": []
+    },
+    "diploma": [],
+    "otherSpecialties": [],
+    "subscribers": [],
+    "tags": [],
+    "invoices": [],
+    "date": {
+      "$date": "2024-06-22T12:34:10.005Z"
+    },
+    "availability": [],
+    "reviews": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6676cb6d113a96200fb5f552"
+    },
+    "firstName": "TestSamuel",
+    "lastName": "TestPochat",
+    "email": "testsamuelpochat@gmail.com",
+    "password": "$2a$10$vxN48oaHws0DgUCFOoZOkOdGqe7r72/lGGQG0BI9GEzIzsSZs38q.",
+    "birthDate": {
+      "$date": "2003-03-13T00:00:00.000Z"
+    },
+    "activated": false,
+    "secretToken": "690347c690278bc3730b4b20af172d20ddda3001",
+    "role": "patient",
+    "sex": "Homme",
+    "phone": {
+      "mobile": [],
+      "landline": []
+    },
+    "diploma": [],
+    "otherSpecialties": [],
+    "subscribers": [],
+    "tags": [],
+    "invoices": [],
+    "date": {
+      "$date": "2024-06-22T13:02:37.840Z"
+    },
+    "availability": [],
+    "reviews": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6676d40a113a96200fb5f556"
+    },
+    "firstName": "test2Samuel",
+    "lastName": "test2Samuel",
+    "email": "test2samuelpochat@gmail.com",
+    "password": "$2a$10$C2s1qsxKLI5BLQrOUiSKBuSIk9DarmajZwjcAw.ROy9E5cowAGhyu",
+    "birthDate": {
+      "$date": "2003-07-25T00:00:00.000Z"
+    },
+    "activated": false,
+    "secretToken": "eaeaa3e5895befcc6cacc3de0ee06562cc4e1ae8",
+    "role": "doctor",
+    "sex": "Homme",
+    "phone": {
+      "mobile": [],
+      "landline": []
+    },
+    "diploma": [],
+    "otherSpecialties": [],
+    "subscribers": [],
+    "tags": [],
+    "invoices": [],
+    "date": {
+      "$date": "2024-06-22T13:39:22.142Z"
+    },
+    "availability": [],
+    "reviews": [],
+    "__v": 0,
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47b1"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6676d6b520f403d3701f2e36"
+    },
+    "firstName": "adil",
+    "lastName": "khadich",
+    "email": "adil.test@gmail.com",
+    "password": "$2a$10$xxG1bCXvyXVn9XJ32QragOs.EwKwOds8PH2Lwyz5PryC6bx8Q4SAm",
+    "birthDate": {
+      "$date": "2003-04-04T00:00:00.000Z"
+    },
+    "activated": true,
+    "secretToken": "",
+    "role": "doctor",
+    "sex": "Homme",
+    "phone": {
+      "mobile": [],
+      "landline": []
+    },
+    "diploma": [],
+    "otherSpecialties": [],
+    "subscribers": [],
+    "tags": [],
+    "invoices": [],
+    "date": {
+      "$date": "2024-06-22T13:50:45.538Z"
+    },
+    "availability": [],
+    "reviews": [],
+    "__v": 0,
+    "office": {
+      "$oid": "667727b3ec439f14d1ce47b1"
+    }
+  }
+]

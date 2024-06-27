@@ -1,0 +1,227 @@
+:root {
+    --primary-color: #e1b07e;
+    --secondary-color: #e5be9e;
+    --tertiary-color: #cbc0ad;
+    --dark-color: #5c5346;
+    --background-color: #0a090c;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(--dark-color);
+    background-color: var(--background-color);
+    overflow-y: scroll;
+    height: 100svh;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: clip;
+}
+
+.container:not(:last-child) {
+    margin-top: 10svh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: var(--primary-color);
+}
+
+section {
+    padding: 20px 0;
+    scroll-snap-align: start;
+    scroll-snap-align: center;
+    min-height: 100svh;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+#about p {
+    text-align: center;
+    max-width: 70vw;
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+    font-size: 1.1em;
+    color: var(--tertiary-color);
+}
+
+#skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    list-style: none;
+    margin-top: 10vh;
+    padding: 0;
+    text-align: center;
+}
+
+#skills ul li {
+    background: var(--tertiary-color);
+    padding: 15px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    font-size: 1.1em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#education .education-item {
+    background: var(--tertiary-color);
+    margin-top: 5vh;
+    padding: 20px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#education .education-item h3 {
+    margin: 0 0 5px;
+    color: var(--dark-color);
+}
+
+#education .education-item h4 {
+    margin: 0 0 10px;
+    color: var(--dark-color);
+}
+
+#education .education-item p {
+    margin: 5px 0;
+    color: var(--dark-color);
+}
+
+@media (max-width: 768px) {
+    .education-item {
+        text-align: center;
+    }
+}
+
+#projects .project {
+    background: var(--tertiary-color);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+#projects .project h3 {
+    margin-top: 0;
+    color: var(--dark-color);
+}
+
+#contact p {
+    text-align: center;
+    margin-top: 6vh;
+    font-size: 1.1em;
+    color: var(--secondary-color);
+}
+
+#contact a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: var(--dark-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        width: 60%;
+    }
+}
+
+.btn-cv {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-cv:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+}
+
+#about .btn-cv {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+    .btn-cv {
+        width: 100%;
+        padding: 15px 20px;
+        font-size: 1.2em;
+    }
+}
+
+@supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+        section {
+            opacity: 0;
+            animation: section-anim 2s linear forwards;
+            animation-timeline: view();
+        }
+
+        @keyframes section-anim {
+            0% {
+                opacity: 0;
+            }
+            60% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "_id": {
+      "$oid": "667727b3ec439f14d1ce47af"
+    },
+    "name": "Cabinet Médical des Champs-Élysées",
+    "email": "contact@cabinetchampselysees.fr",
+    "address": {
+      "road": "50 Avenue des Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75008",
+      "state": "Île-de-France"
+    },
+    "landline": ["+33142567890"]
+  },
+  {
+    "_id": {
+      "$oid": "667727b3ec439f14d1ce47b0"
+    },
+    "name": "Clinique Saint-Roch",
+    "email": "info@cliniquesaintroch.fr",
+    "address": {
+      "road": "15 Rue de la République",
+      "city": "Montpellier",
+      "postalCode": "34000",
+      "state": "Occitanie"
+    },
+    "landline": ["+33467123456"]
+  },
+  {
+    "_id": {
+      "$oid": "667727b3ec439f14d1ce47b1"
+    },
+    "name": "Centre Médical Pasteur",
+    "email": "contact@cmpasteur.fr",
+    "address": {
+      "road": "10 Boulevard Pasteur",
+      "city": "Lyon",
+      "postalCode": "69007",
+      "state": "Auvergne-Rhône-Alpes"
+    },
+    "landline": ["+33478890123"]
+  }
+]

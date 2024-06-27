@@ -1,0 +1,89 @@
+[
+  {
+    "_id": {
+      "$oid": "6672edeb2b812532a3bbd783"
+    },
+    "patientId": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "items": [
+      {
+        "product": "Consultation",
+        "description": "prise de poids",
+        "quantity": 1,
+        "price": 50,
+        "total": 0,
+        "_id": {
+          "$oid": "6672edeb2b812532a3bbd784"
+        }
+      }
+    ],
+    "totalAmount": 50,
+    "status": "Pending",
+    "createdAt": {
+      "$date": "2024-06-19T14:40:39.377Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T14:40:39.377Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6672faa8fbefa91d32116d46"
+    },
+    "patientId": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "items": [
+      {
+        "product": "Analyse",
+        "description": "Pisse du sang",
+        "quantity": 1,
+        "price": 120,
+        "total": 0,
+        "_id": {
+          "$oid": "6672faa8fbefa91d32116d47"
+        }
+      }
+    ],
+    "totalAmount": 120,
+    "status": "Pending",
+    "createdAt": {
+      "$date": "2024-06-19T15:33:41.908Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T15:33:41.908Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6672faeffbefa91d32116d53"
+    },
+    "patientId": {
+      "$oid": "667131f6aaa89d3618442fbd"
+    },
+    "items": [
+      {
+        "product": "Analyse",
+        "description": "Cancer de la vessie",
+        "quantity": 1,
+        "price": 200,
+        "total": 0,
+        "_id": {
+          "$oid": "6672faeffbefa91d32116d54"
+        }
+      }
+    ],
+    "totalAmount": 200,
+    "status": "Pending",
+    "createdAt": {
+      "$date": "2024-06-19T15:35:59.784Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T15:35:59.784Z"
+    },
+    "__v": 0
+  }
+]

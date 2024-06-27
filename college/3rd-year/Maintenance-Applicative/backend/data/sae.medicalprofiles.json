@@ -1,0 +1,231 @@
+[
+  {
+    "_id": {
+      "$oid": "6669457408886324b7168e38"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e78"
+    },
+    "diseases": [
+      {
+        "name": "Diabète",
+        "diagnosisDate": {
+          "$date": "2020-01-01T00:00:00.000Z"
+        },
+        "details": "Le patient a un diabète de type 2"
+      }
+    ],
+    "allergies": [],
+    "surgery": [],
+    "diagnostics": [
+      {
+        "diagnostic": "Hypertension",
+        "date": {
+          "$date": "2020-02-01T00:00:00.000Z"
+        },
+        "treatment": "Médicaments et changements de mode de vie",
+        "notes": "Le patient a reçu des médicaments pour la tension artérielle"
+      }
+    ],
+    "notes": "Le patient a des antécédents de diabète et d'hypertension",
+    "lastUpdate": {
+      "$date": "2022-04-01T00:00:00.000Z"
+    },
+    "health": 4,
+    "bloodType": "A+",
+    "weight": 65,
+    "height": 165,
+    "famillyHistory": "Antécédents de diabète dans la famille."
+  },
+  {
+    "_id": {
+      "$oid": "6669457408886324b7168e39"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e79"
+    },
+    "diseases": [
+      {
+        "name": "Arthrose",
+        "diagnosisDate": {
+          "$date": "2020-03-01T00:00:00.000Z"
+        },
+        "details": "Le patient a de l'arthrose"
+      }
+    ],
+    "allergies": [
+      {
+        "allergy": "Pénicilline",
+        "reaction": "Éruption cutanée et démangeaisons",
+        "severity": 2
+      }
+    ],
+    "surgery": [
+      {
+        "type": "Kystectomie",
+        "date": {
+          "$date": "2020-04-01T00:00:00.000Z"
+        },
+        "details": "Le patient a subi une intervention pour retirer un kyste"
+      }
+    ],
+    "diagnostics": [],
+    "notes": "Le patient a des antécédents d'arthrose et doit être surveillé pour toute aggravation des symptômes",
+    "lastUpdate": {
+      "$date": "2022-05-01T00:00:00.000Z"
+    },
+    "health": 3,
+    "bloodType": "O-",
+    "weight": 78,
+    "height": 175,
+    "famillyHistory": "Antécédents d'hypertension."
+  },
+  {
+    "_id": {
+      "$oid": "6669457408886324b7168e3a"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e7b"
+    },
+    "diseases": [
+      {
+        "name": "Cancer",
+        "diagnosisDate": {
+          "$date": "2020-05-01T00:00:00.000Z"
+        },
+        "details": "Le patient a un cancer du poumon"
+      }
+    ],
+    "allergies": [],
+    "surgery": [],
+    "diagnostics": [
+      {
+        "diagnostic": "Pneumonie",
+        "date": {
+          "$date": "2020-06-01T00:00:00.000Z"
+        },
+        "treatment": "Antibiotiques et repos",
+        "notes": "Le patient a reçu des médicaments pour la pneumonie"
+      }
+    ],
+    "notes": "Le patient a des antécédents de cancer du poumon et est surveillé pour toute complication",
+    "lastUpdate": {
+      "$date": "2022-06-01T00:00:00.000Z"
+    },
+    "health": 2,
+    "bloodType": "B+",
+    "weight": 55,
+    "height": 160,
+    "famillyHistory": "Aucun antécédent médical familial significatif."
+  },
+  {
+    "_id": {
+      "$oid": "6669457408886324b7168e3b"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e73"
+    },
+    "diseases": [
+      {
+        "name": "Rhumatismes",
+        "diagnosisDate": {
+          "$date": "2020-07-01T00:00:00.000Z"
+        },
+        "details": "Le patient a de l'arthrite rhumatoïde"
+      }
+    ],
+    "allergies": [
+      {
+        "allergy": "Aspirine",
+        "reaction": "Symptômes gastro-intestinaux",
+        "severity": 1
+      }
+    ],
+    "surgery": [],
+    "diagnostics": [],
+    "notes": "Le patient a des antécédents d'arthrite rhumatoïde et doit être surveillé pour toute aggravation des symptômes",
+    "lastUpdate": {
+      "$date": "2022-07-01T00:00:00.000Z"
+    },
+    "health": 3,
+    "bloodType": "AB+",
+    "weight": 82,
+    "height": 180,
+    "famillyHistory": "Antécédents de maladies cardiovasculaires."
+  },
+  {
+    "_id": {
+      "$oid": "6669457408886324b7168e3c"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e76"
+    },
+    "diseases": [
+      {
+        "name": "Démence",
+        "diagnosisDate": {
+          "$date": "2020-08-01T00:00:00.000Z"
+        },
+        "details": "Le patient a la maladie d'Alzheimer"
+      }
+    ],
+    "allergies": [],
+    "surgery": [],
+    "diagnostics": [
+      {
+        "diagnostic": "Dyskinésie",
+        "date": {
+          "$date": "2020-09-01T00:00:00.000Z"
+        },
+        "treatment": "Médicaments et thérapie",
+        "notes": "Le patient a reçu des médicaments pour la dyskinésie"
+      }
+    ],
+    "notes": "Le patient a des antécédents de la maladie d'Alzheimer et est surveillé pour toute complication",
+    "lastUpdate": {
+      "$date": "2022-09-01T00:00:00.000Z"
+    },
+    "health": 3,
+    "bloodType": "A-",
+    "weight": 60,
+    "height": 170,
+    "famillyHistory": "Asthme et allergies dans la famille."
+  },
+  {
+    "_id": {
+      "$oid": "6669457408886324b7168e3d"
+    },
+    "patient": {
+      "$oid": "666945a808886324b7168e77"
+    },
+    "diseases": [
+      {
+        "name": "Maladie cardiovasculaire",
+        "diagnosisDate": {
+          "$date": "2020-10-01T00:00:00.000Z"
+        },
+        "details": "Le patient a une maladie coronarienne"
+      }
+    ],
+    "allergies": [],
+    "surgery": [
+      {
+        "type": "Angioplastie",
+        "date": {
+          "$date": "2020-11-01T00:00:00.000Z"
+        },
+        "details": "Le patient a subi une angioplastie"
+      }
+    ],
+    "diagnostics": [],
+    "notes": "Le patient a des antécédents de maladie coronarienne et est surveillé pour toute complication",
+    "lastUpdate": {
+      "$date": "2022-11-01T00:00:00.000Z"
+    },
+    "health": 1,
+    "bloodType": "O+",
+    "weight": 75,
+    "height": 180,
+    "famillyHistory": "Hypertension et maladies cardiovasculaires dans la famille."
+  }
+]

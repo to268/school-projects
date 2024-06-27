@@ -1,0 +1,42 @@
+services:
+  haproxy:
+    container_name: haproxy
+    image: haproxy:3.0.2-alpine
+    restart: unless-stopped
+    ports:
+      - "5000:80"
+      - "8888:8888"
+    volumes:
+      - ./haproxy:/usr/local/etc/haproxy:ro
+    networks:
+      - sae
+    depends_on:
+      - backend
+      - frontend
+
+  backend:
+    container_name: backend
+    image: backend
+    build:
+      context: ./backend
+      network: host
+    restart: unless-stopped
+    networks:
+      - sae
+
+  frontend:
+    container_name: frontend
+    image: frontend
+    restart: unless-stopped
+    build:
+      context: ./frontend
+      network: host
+    depends_on:
+      - backend
+    networks:
+      - sae
+
+networks:
+  sae:
+    name: sae
+    driver: bridge
